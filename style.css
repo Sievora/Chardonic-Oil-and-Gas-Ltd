@@ -48,6 +48,7 @@ body {
     width: 22px;
 }
 
+
 .top-head section .sectionOne {
  display: flex;
  gap: 20px;
@@ -72,6 +73,11 @@ body {
     font-size: 12px;
 }
 
+.top-head section .sectionOne div a:hover {
+    color: #010127;
+    font-weight: 500;
+}
+
 .top-head section .sectionTwo {
  display: flex;
  gap: 20px;
@@ -94,7 +100,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    padding: 7px;
+    
     display: flex;
     align-items: center;
 }
@@ -108,8 +114,20 @@ body {
 .main-header section div {
    display: flex;
    align-items: center;
-   gap: 40px;
+   gap: 5px;
    font-size: 14px;
+}
+
+.main-header section div a {
+    padding: 18px 35px;
+    border-top: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.main-header section div a:hover {
+    border-top: 2px solid #010127;
+    color: #010127;
+    background-color: rgba(128, 128, 128, 0.089);
 }
 
 .main-header section button {
@@ -126,6 +144,7 @@ body {
      font-size: 15px;
      border-radius: 0px;
      padding: 0 20px;
+    cursor: pointer;
 }
 
 .main-header section button svg {
@@ -151,7 +170,18 @@ nav {
 }
 
 @keyframes nav {
-    0
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    80% {
+        transform:  translateY(20px);
+        opacity: 1;
+    }
+    100% {
+        transform:  translateY(0);
+    } 
 }
 
 nav .sectionOne{
@@ -221,6 +251,7 @@ nav button {
      padding: 0 20px;
      width: fit-content;
      margin-bottom: 20px;
+     cursor: pointer;
 }
 
 nav button svg {
@@ -248,19 +279,12 @@ nav button svg {
     width: 90%;
     margin: auto;
     color: #fff;
-    padding-top: 170px;
+    padding-top: 150px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.hero-sub .p1 {
-    
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    
-}
 
 .hero-sub h1 {
     font-size: 3.5rem;
@@ -297,32 +321,59 @@ nav button svg {
     width: 30px;
 }
 
-.achieve {
+.herotwo {
     display: flex;
     width: 90%;
     margin: auto;
-    justify-content: left;
-    gap: 20px;
+    justify-content: space-between;
+}
+.herotwo .achieve {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
     padding: 20px 0;
+    align-items: center;
 }
 
-.achieve div {
+.herotwo .achieve div {
     margin: 0;
     padding: 20px;
     filter: drop-shadow(0 0 5px rgba(1, 1, 39,0.5));
-    background-color: #fff;
+    
     border-radius: 10px;
 }
-.achieve h1 {
+
+.herotwo .achieve span {
+    background-color: #000;
+    width: 0.01rem;
+    height: 3rem;
+}
+.herotwo .achieve h1 {
     font-size: 50px;
         margin: 0;
     padding: 0;
 }
-.achieve p {
+.herotwo .achieve p {
     color: #5b5b5b;
     font-size: 14px;
         margin: 0;
     padding: 0;
 }
+
+.herotwo .herotwo .ht-exten {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.herotwo .herotwo .ht-exten>:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 
