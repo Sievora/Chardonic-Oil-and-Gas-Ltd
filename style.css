@@ -1,0 +1,190 @@
+html {
+    font-family: poppins;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    max-width: 1360px;
+}
+
+.top-head {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 242, 242);
+    padding: 10px 0;
+    position: relative;
+}
+
+.top-head section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.top-head section svg {
+    width: 22px;
+}
+
+.top-head section .sectionOne {
+ display: flex;
+ gap: 20px;
+ align-items: center;
+}
+
+.top-head section .sectionOne span {
+    background-color: black;
+    width: 0px;
+    height: 20px;
+    border-left: 1px #5b5b5b solid;
+    left: 170px;
+}
+
+
+.top-head section .sectionOne div a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.top-head section .sectionTwo {
+ display: flex;
+ gap: 20px;
+ align-items: center;
+}
+
+.main-header {
+    position: fixed;
+    max-width: 1360px;
+    margin: auto;
+    width: 100%;
+    background-color: #fff;
+}
+
+.main-header section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 7px;
+}
+
+.main-header section img {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.main-header section div {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+   font-size: 14px;
+}
+
+.main-header section button {
+    display: flex;
+    align-items: center;
+    background-color: #01013a;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+     justify-content: center;
+     color: #fff;
+     font-weight: bold;
+     font-size: 15px;
+     border-radius: 0px;
+     padding: 0 20px;
+}
+
+.main-header section button svg {
+    background-color: #f3f2f2;
+    width: 30px;
+}
+
+.hero {
+    margin-top: 50px;
+    width: 100%;
+    background-image: url("banner-image.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-color: rgba(0,0,0,1);
+}
+
+.hero-sub {
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-sub .p1 {
+    
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-sub h1 {
+    font-size: 50px;
+    border-top: 1px solid #ffffff2a;
+    border-bottom: 1px solid #ffffff2a;
+    width: 1000px;
+}
+
+
+.hero-sub button {
+    display: flex;
+    align-items: center;
+    background-color: #010127;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+     justify-content: center;
+     color: #fff;
+     font-weight: bold;
+     font-size: 17px;
+     border-radius: 0px;
+     padding: ;
+     width:200px;
+     cursor: pointer;
+     margin-top: 40px;
+}
+
+.hero-sub button svg {
+    background-color: #f3f2f2;
+    width: 30px;
+}
+
