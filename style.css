@@ -279,7 +279,7 @@ nav button svg {
     width: 90%;
     margin: auto;
     color: #fff;
-    padding-top: 150px;
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -329,7 +329,8 @@ nav button svg {
 }
 .herotwo .achieve {
     display: flex;
-    width: 50%;
+    width: 90%;
+    margin: auto;
     justify-content: space-between;
     padding: 20px 0;
     align-items: center;
@@ -337,16 +338,16 @@ nav button svg {
 
 .herotwo .achieve div {
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     filter: drop-shadow(0 0 5px rgba(1, 1, 39,0.5));
     
     border-radius: 10px;
 }
 
-.herotwo .achieve span {
-    background-color: #000;
-    width: 0.01rem;
-    height: 3rem;
+.herotwo .achieve .line {
+    background-color: #00000062;
+    padding: 0 0.5px;
+    height: 60px;
 }
 .herotwo .achieve h1 {
     font-size: 50px;
