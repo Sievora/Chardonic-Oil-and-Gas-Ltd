@@ -1,0 +1,49 @@
+@media (max-width:390px) {
+    .top-head {
+        display: none;
+    }
+
+    .main-header {
+        margin: 0;
+        top: 0;
+        padding-top: 20px;
+    }
+
+    .main-header section .openNav {
+        display: flex;
+    }
+    .main-header .linktext {
+        display: none;
+    }
+
+    .main-header .button {
+        display: none;
+    }
+
+    .hero-sub {
+        padding-top: 100px;
+        gap: 20px;
+    }
+
+    .hero-sub h1 {
+        font-size: 1.8rem;
+        width: 90%;
+    }
+
+    .hero-sub .p2 {
+        width: 100%;
+    }
+
+    .achieve h1 {
+    font-size: 30px;
+        margin: 0;
+    padding: 0;
+}
+
+.achieve div {
+    
+    padding: 10px;
+    
+
+}
+}
