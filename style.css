@@ -128,6 +128,55 @@ body {
     width: 30px;
 }
 
+nav {
+    position: fixed;
+    max-width: 1360px;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    top: 0;
+    padding: 0 40px;
+    z-index: 999999;
+    animation: 0.5s nav ease;
+}
+
+@keyframes nav {
+    0
+}
+
+nav .sectionOne{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav .sectionOne img {
+    width: 100px;
+}
+
+nav .sectionOne svg {
+    width:35px;
+}
+
+nav .sectionTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+nav .sectionTwo a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: #5b5b5b1e solid 1px;
+    border-bottom: #5b5b5b1e solid 1px;
+    padding: 7px 0;
+}
+
 .hero {
     margin-top: 50px;
     width: 100%;
