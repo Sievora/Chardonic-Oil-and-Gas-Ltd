@@ -274,7 +274,7 @@ nav button svg {
     justify-content: flex-start; 
     align-items: center;      
     height: 100vh;  
-    background-image: url("banner-image.svg");
+    background-image: url("banner-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0,0,0,1);
