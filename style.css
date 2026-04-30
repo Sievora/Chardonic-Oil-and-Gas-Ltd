@@ -178,7 +178,7 @@ nav {
     }
 
     80% {
-        transform:  translateY(20px);
+        transform:  translateY(7px);
         opacity: 1;
     }
     100% {
@@ -358,6 +358,26 @@ nav button svg {
     justify-content: space-between;
     padding: 20px 0;
     align-items: center;
+	animation: text-appear 3s both;
+	animation-timeline: view();
+	animation-range:  entry 0% cover 30vh;
+    animation-delay: 0.5s ;
+}
+
+@keyframes text-appear {
+	from {
+		opacity: 0;
+		transform: translateX(-100px);
+		
+		transition: ease;
+	}
+
+	to {
+		opacity: 1;
+		
+		transform: translateX(0px);
+		transition: ease;
+	}
 }
 
 .herotwo .achieve div {
@@ -366,6 +386,7 @@ nav button svg {
     filter: drop-shadow(0 0 5px rgba(1, 1, 39,0.5));
     
     border-radius: 10px;
+
 }
 
 .herotwo .achieve .line {
@@ -399,6 +420,8 @@ nav button svg {
     justify-content: space-between;
     width: 100%;
 }
+
+
 
 
 
