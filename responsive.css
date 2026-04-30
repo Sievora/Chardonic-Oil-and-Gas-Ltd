@@ -6,7 +6,6 @@
     .main-header {
         margin: 0;
         top: 0;
-        padding-top: ;
     }
 
     .main-header section .openNav {
@@ -46,4 +45,30 @@
     
 
 }
+.herotwo {
+    display:block;
+    width: 90%;
+}
+
+.herotwo .achieve {
+    width: 100%;
+}
+
+.herotwo .ht-exten {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.herotwo  .ht-exten>:nth-child(1) {
+    
+    color: #010127;
+    border: #010127 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 }
