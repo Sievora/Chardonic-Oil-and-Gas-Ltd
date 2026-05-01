@@ -23,6 +23,8 @@ body {
     margin: auto;
     position: relative;
     max-width: 1360px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .top-head {
@@ -423,7 +425,7 @@ nav button svg {
     box-shadow: 0 0 50px rgba(0,0,0,0.3);
     border-radius: 10px;
     margin: auto;
-	animation: ht-exten 3s both;
+	animation: ht-exten 10s both;
 	animation-timeline: view();
 	animation-range:  entry 0% cover 30vh;
     animation-delay: 0.5s ;
