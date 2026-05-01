@@ -170,6 +170,7 @@ nav {
     z-index: 999999;
     animation: 0.5s nav ease;
     display: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 @keyframes nav {
@@ -193,7 +194,7 @@ nav .sectionOne{
     padding: 10px 0;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 nav .sectionOne img {
@@ -361,7 +362,41 @@ nav button svg {
     justify-content: space-between;
     padding: 20px 0;
     align-items: center;
-	animation: text-appear 3s both;
+	
+}
+
+.herotwo .achieve>:nth-child(1) {
+    animation: text-appear 3s both;
+	animation-timeline: view();
+	animation-range:  entry 0% cover 30vh;
+    animation-delay: 0.5s ;
+   
+}
+
+.herotwo .achieve>:nth-child(2) {
+    animation: text-appear 5s both;
+	animation-timeline: view();
+	animation-range:  entry 0% cover 30vh;
+    animation-delay: 0.5s ;
+   
+}
+
+.herotwo .achieve>:nth-child(3) {
+     animation: text-appear 8s both;
+	animation-timeline: view();
+	animation-range:  entry 0% cover 30vh;
+    animation-delay: 0.5s ;
+}
+
+.herotwo .achieve>:nth-child(4) {
+     animation: text-appear 11s both;
+	animation-timeline: view();
+	animation-range:  entry 0% cover 30vh;
+    animation-delay: 0.5s ;
+}
+
+.herotwo .achieve>:nth-child(5) {
+     animation: text-appear 15s both;
 	animation-timeline: view();
 	animation-range:  entry 0% cover 30vh;
     animation-delay: 0.5s ;
@@ -425,9 +460,9 @@ nav button svg {
     box-shadow: 0 0 50px rgba(0,0,0,0.3);
     border-radius: 10px;
     margin: auto;
-	animation: ht-exten 10s both;
+	animation: ht-exten 20s both;
 	animation-timeline: view();
-	animation-range:  entry 0% cover 30vh;
+	animation-range:  entry 0% cover 25vh;
     animation-delay: 0.5s ;
 }
 
