@@ -37,6 +37,7 @@ body {
     position: fixed;
     top: 0;
     max-width: 1360px;
+    z-index: 9999999999;
 }
 
 .top-head section {
@@ -94,6 +95,8 @@ body {
     width: 100%;
     background-color: #fff;
     top: 41px;
+    z-index: 99999999;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 .main-header section {
@@ -167,7 +170,7 @@ nav {
     width: 100%;
     top: 0;
     padding: 0 40px;
-    z-index: 999999;
+    z-index: 99999999999;
     animation: 0.5s nav ease;
     display: none;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
@@ -347,6 +350,14 @@ nav button svg {
     }
 }
 
+.mainherotwo{
+    width: 100%;
+    margin: auto;
+    
+    border-bottom: #5b5b5b 1px solid;
+    padding-bottom: 20px;
+}
+
 .herotwo {
     display: flex;
     width: 90%;
@@ -354,7 +365,7 @@ nav button svg {
     justify-content: space-between;
     position: relative;
     align-items: first baseline;
-    margin-bottom: 30px;
+
 }
 .herotwo .achieve {
     display: flex;
@@ -457,7 +468,8 @@ nav button svg {
     padding: 20px ;
     width: 30%;
     backdrop-filter: blur(10px) ;
-    box-shadow: 0 0 50px rgba(0,0,0,0.3);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+    border: 1px solid #0000002a;
     border-radius: 10px;
     margin: auto;
 	animation: ht-exten 20s both;
@@ -489,8 +501,9 @@ nav button svg {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    color: #ffffff;
-    border: #ffffff 1px solid;
+    color: #fff;
+    font-weight: bold;
+    border: #fff 1px solid;
     padding: 5px;
     border-radius: 10px;
     margin-bottom: 40px;
@@ -523,7 +536,60 @@ nav button svg {
     
 }
 
+.core {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+
+.core img {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.core .text {
+    width: 50%;
+    display: grid;
+    gap: 30px;
+}
+.core .text h1 {
+    border: 1px solid #0000002a;
+        padding: 0px 15px;
+    border-radius: 10px;
+}
+.core .text>:nth-child(1) {
+    text-decoration: underline;
+
+}
+
+.core .text>:nth-child(2) {
+    color: #010127;
+}
+
+.core .text button {
+    display: flex;
+    align-items: center;
+    background-color: #01013a;
+    height: 50px;
+    width: 30%;
+    align-items: center;
+    gap: 10px;
+    border: none;
+     justify-content: space-between;
+     color: #fff;
+     font-weight: bold;
+     font-size: 15px;
+     border-radius: 0px;
+     padding: 0 20px;
+    cursor: pointer;
+}
 
 
 
-
+.core .text button svg {
+    background-color: #f3f2f2;
+    width: 30px;
+}

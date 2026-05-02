@@ -1,11 +1,13 @@
-@media (max-width:500px) {
+@media (max-width:820px) {
     .top-head {
         display: none;
     }
 
     .main-header {
         margin: 0;
-        top: 0;
+        top: -3px;
+        padding: 10px 0;
+        
     }
 
     .main-header section .openNav {
@@ -88,4 +90,30 @@
     border-radius: 10px;
 }
 
+.core {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 40px;
+    
+}
+
+.core img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.core .text {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+}
+
+.core .text button {
+    width: 55%;
+}
+
+.core .text button svg {
+  
+}
 }
