@@ -631,3 +631,38 @@ nav button svg {
     stroke: #fff;
     width: 30px;
 }
+
+.mandv {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 40px;
+    justify-content: center;
+    position: relative;
+}
+
+.mandv div {
+    width: 40%;
+    background-color: #f7f7f7;
+    padding: 15px 30px;
+    text-align:justify ;
+}
+
+.mandv span {
+    background-color: #5b5b5b;
+    width: 1px;
+    height: 170px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+}
+
+.mandv div svg {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 40px;
+}
