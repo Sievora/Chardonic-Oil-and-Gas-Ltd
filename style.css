@@ -5,6 +5,7 @@ html {
     margin: auto;
     background-color: #fff;
     scroll-behavior: smooth;
+    color: #01013a;
 }
 
 * {
@@ -667,50 +668,84 @@ nav button svg {
     width: 40px;
 }
 
-
-
-.clientmain{
-	width: 100%;
-	display: flex;
-	overflow-x: auto;
-	background-color: #fff;
-	padding: 15px 7px;
-	border-radius: 7px;
+.clientandvendor {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    background-image: url(line.webp);
+    background-size: contain;
+    padding: 10px 0;
+    padding-bottom: 40px;
 }
 
-.nxthold::-webkit-scrollbar {
-	display: none;
-}
-.clientmain .client {
-	display: flex;
-	background-color: #e71818;
-	width: 90%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	gap: 1em;
-	padding-left: 1em;
-	animation: spin 10s infinite linear;
-
+.clientandvendor h2 {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    color: #010127;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.clientmain .client div {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	gap: 5px;
-	color: #6f6f6f;
-	font-size: 0.8;
-    background-color: blue;
-    ,
-    width: 50px;
+.clientmain {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 40px 0;
+    border-radius: 7px;
 }
 
-.clientmain .client div img {
-
+.track {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite;
 }
 
-@keyframes spin {
-	from {translate: 0;}
-	to {translate: -100%;}
+.client {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-right: 50px;
+}
+
+.client img {
+    width: 150px;
+    flex-shrink: 0;
+}
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+footer {
+    background-color: rgba(252, 89, 16 , 0.1);
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+}
+
+footer section {
+    display: flex;
+}
+footer section {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+footer a {
+    font-weight: bold;
+   
 }
