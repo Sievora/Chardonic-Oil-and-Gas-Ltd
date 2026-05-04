@@ -129,4 +129,28 @@
 .mandv span {
     display: none;
 }
+
+.footer {
+    display: grid;
+    gap: 50px;
+    background-color: #010127;
+    padding: 10px 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer>:nth-child(1) {
+    width: 100%;
+
+}
+
+.footer>:nth-child(2) {
+    width: 100%;
+    gap: 10px;
+}
+
+.footer>:nth-child(3) {
+    width: 100%;
+    gap: 10px;
+}
 }

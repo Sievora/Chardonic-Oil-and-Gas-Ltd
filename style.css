@@ -28,6 +28,73 @@ body {
 
 }
 
+
+
+.arrowup {
+   max-width: 1360px; 
+   width: 97%;
+   margin: auto;
+   position: relative;
+    z-index: 999999999;
+     justify-items: end;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+.arrowup  a {
+    position: fixed;
+    margin: 20px 15px;
+    bottom: 0px;
+    padding:  10px;
+    text-align: center;
+    background-color: #fc5910;
+    color: #fff;
+    border-radius: 50px;
+    border: #fff 2px solid;
+    opacity: 0.7;
+    font-size: 14px;
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.3));
+    transition: 0.3s ease;
+}
+
+.arrowup img {
+    width: 25px;
+}
+
+.arrowup  a:active {
+    filter: drop-shadow( 0px 0px 15px rgba(255, 128, 11, 0.7));
+}
+
+.arrowup  a:hover {
+    scale: 140%;
+}
+
+.scroll {
+	animation: text-appear both;
+	animation-timeline: view();
+	animation-range: entry 1% cover 55vh;
+}
+
+@keyframes text-appear {
+	from {
+		opacity: 0;
+		transform: translateY(100px);
+		scale: 0.5;
+		transition: ease;
+	}
+
+	to {
+		opacity: 1;
+		scale: 1;
+		transform: translateY(0px);
+		transition: ease;
+	}
+}
+
 .top-head {
     width: 100%;
     margin: auto;
@@ -724,6 +791,62 @@ nav button svg {
     }
 }
 
+.footer {
+    width: 90%;
+    margin: auto;
+    display: FLEX;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 14px;
+    padding: 40px 2%;
+    background-color: #010127;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+     margin-bottom: 40px;
+
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer>:nth-child(1) {
+    width: 40%;
+    display: grid;
+    gap: 10px;
+}
+
+.footer>:nth-child(2) {
+    width: 10%;
+    display: grid;
+    gap: 30px;
+}
+
+.footer>:nth-child(3) {
+    width: 30%;
+    display: grid;
+    gap: 45px;
+}
+
+.footer>:nth-child(3) a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.footer div img {
+    width: 100px;
+}
+
+.footer>:nth-child(3) a svg {
+    width: 22px;
+    stroke: none;
+    fill: #fff ;
+}
+
+
 
 footer {
     background-color: rgba(252, 89, 16 , 0.1);
@@ -732,6 +855,9 @@ footer {
     padding: 10px 0;
     width: 100%;
     margin: auto;
+    font-size: 12px;
+    background-image: url(line.webp);
+    background-size: cover;
 }
 
 footer section {
@@ -743,6 +869,16 @@ footer section {
     width: 90%;
     margin: auto;
     justify-content: space-between;
+}
+
+footer p {
+    width: 40%;
+    text-align: left;
+}
+
+footer span {
+    width: 40%;
+    text-align: right;
 }
 
 footer a {
