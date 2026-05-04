@@ -32,12 +32,13 @@ body {
     margin: auto;
     display: flex;
     align-items: center;
-    background-color: rgb(243, 242, 242);
+    background-color: #fc5910;
     padding: 10px 0;
     position: fixed;
     top: 0;
     max-width: 1360px;
     z-index: 9999999999;
+    
 }
 
 .top-head section {
@@ -57,10 +58,12 @@ body {
  display: flex;
  gap: 20px;
  align-items: center;
+ fill: #fff;
+ stroke: #00000036;
 }
 
 .top-head section .sectionOne span {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width: 0px;
     height: 20px;
     border-left: 1px #5b5b5b solid;
@@ -70,7 +73,7 @@ body {
 
 .top-head section .sectionOne div a {
     text-decoration: none;
-    color: black;
+    color: #fff;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -80,12 +83,27 @@ body {
 .top-head section .sectionOne div a:hover {
     color: #010127;
     font-weight: 500;
+    fill: #010127;
+    transition: 0.3s ease;
 }
 
 .top-head section .sectionTwo {
  display: flex;
  gap: 20px;
  align-items: center;
+ 
+ fill: #fff;
+ 
+}
+
+.top-head section .sectionTwo a {
+    transition: 0.3s ease;
+}
+
+.top-head section .sectionTwo a:hover {
+    color: #010127;
+    font-weight: 500;
+    fill: #010127;
 }
 
 .main-header {
@@ -96,6 +114,7 @@ body {
     background-color: #fff;
     top: 41px;
     z-index: 99999999;
+    background-image: url(top-bar-bg-pattern.svg);
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
@@ -105,7 +124,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    
     
     display: flex;
     align-items: center;
@@ -154,7 +173,9 @@ body {
 }
 
 .main-header section button svg {
-    background-color: #f3f2f2;
+    background-color: #fc5910;
+    color: #fff;
+    stroke: #fff;
     width: 30px;
 }
 
@@ -174,6 +195,9 @@ nav {
     animation: 0.5s nav ease;
     display: none;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    background-image: url(top-bar-bg-pattern.svg);
+    
+    
 }
 
 @keyframes nav {
@@ -224,6 +248,10 @@ nav .sectionTwo a {
     padding: 17px 0;
 }
 
+nav .sectionTwo a SPAN {
+    color: #fc5910;
+}
+
 .svgandbtn {
     display: flex;
     align-items: center;
@@ -262,8 +290,11 @@ nav button {
 }
 
 nav button svg {
-    background-color: #f3f2f2;
+    background-color: #fc5910;
+    color: #fff;
     width: 30px;
+    stroke: #fff;
+
 }
 
 
@@ -278,11 +309,12 @@ nav button svg {
     display: flex;
     justify-content: flex-start; 
     align-items: center;      
-    height: 100vh;  
     background-image: url("banner-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0,0,0,1);
+    padding-top: 170px ;
+    padding-bottom: 100px;
 }
 
 .hero-sub {
@@ -291,7 +323,7 @@ nav button svg {
     color: #fff;
     display: flex;
     flex-direction: column;
-    padding-top:5% ;
+    
     
 }
 .hero-sub .p1 {
@@ -335,7 +367,9 @@ nav button svg {
 }
 
 .hero-sub button svg {
-    background-color: #f3f2f2;
+    background-color: #fc5910;
+    color: #fff;
+    stroke: #fff;
     width: 30px;
 }
 
@@ -353,7 +387,7 @@ nav button svg {
 .mainherotwo{
     width: 100%;
     margin: auto;
-    
+    background-image: url(top-bar-bg-pattern.svg);
     border-bottom: #5b5b5b 1px solid;
     padding-bottom: 20px;
 }
@@ -432,8 +466,8 @@ nav button svg {
 .herotwo .achieve div {
     margin: 0;
     padding: 0px;
-    filter: drop-shadow(0 0 5px rgba(1, 1, 39,0.5));
-    
+   
+    color: #fc5910;
     border-radius: 10px;
 
 }
@@ -469,6 +503,7 @@ nav button svg {
     width: 30%;
     backdrop-filter: blur(10px) ;
     box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+    
     border: 1px solid #0000002a;
     border-radius: 10px;
     margin: auto;
@@ -514,20 +549,21 @@ nav button svg {
     font-weight: 700;
     border-bottom: 1px solid #000;
     padding-bottom: 30px;
+    color: #fc5910;
 }
 
 .herotwo  .ht-exten>:nth-child(3) {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: 25px;
+    font-size: 17px;
     align-items: center;
     margin-top: 20px;
 }
 
 .herotwo  .ht-exten>:nth-child(3) span {
     padding: 5px 13px;
-    background-color: #01013a;
+    background-color: #fc5910;
     border-radius: 50px;
     color: #fff;
     font-size: 20px;
@@ -590,6 +626,8 @@ nav button svg {
 
 
 .core .text button svg {
-    background-color: #f3f2f2;
+    background-color: #fc5910;
+    color: #fff;
+    stroke: #fff;
     width: 30px;
 }
