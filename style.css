@@ -195,7 +195,7 @@ nav {
     animation: 0.5s nav ease;
     display: none;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    background-image: url(top-bar-bg-pattern.svg);
+    background-color: #fff;
     
     
 }
@@ -665,4 +665,52 @@ nav button svg {
     padding: 5px;
     border-radius: 10px;
     width: 40px;
+}
+
+
+
+.clientmain{
+	width: 100%;
+	display: flex;
+	overflow-x: auto;
+	background-color: #fff;
+	padding: 15px 7px;
+	border-radius: 7px;
+}
+
+.nxthold::-webkit-scrollbar {
+	display: none;
+}
+.clientmain .client {
+	display: flex;
+	background-color: #e71818;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 1em;
+	padding-left: 1em;
+	animation: spin 10s infinite linear;
+
+}
+
+.clientmain .client div {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 5px;
+	color: #6f6f6f;
+	font-size: 0.8;
+    background-color: blue;
+    ,
+    width: 50px;
+}
+
+.clientmain .client div img {
+
+}
+
+@keyframes spin {
+	from {translate: 0;}
+	to {translate: -100%;}
 }
