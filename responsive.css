@@ -3,6 +3,11 @@
         display: none;
     }
 
+    .arrowup  a:hover {
+    scale: 100%;
+}
+
+
     .main-header {
         margin: 0;
         top: -3px;
