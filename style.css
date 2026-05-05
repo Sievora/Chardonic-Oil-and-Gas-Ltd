@@ -398,6 +398,12 @@ nav button svg {
     
     
 }
+
+.hero-sub span {
+    color: #f2591c;
+         
+}
+
 .hero-sub .p1 {
     animation: hero 0.3s ease;
     margin-bottom: 2%;
