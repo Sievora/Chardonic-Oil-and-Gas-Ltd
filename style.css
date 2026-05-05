@@ -6,6 +6,7 @@ html {
     background-color: #fff;
     scroll-behavior: smooth;
     color: #0A2540;
+    font-size: 14px;
 }
 
 * {
@@ -773,6 +774,9 @@ nav button svg {
     width: 40px;
 }
 
+.mandv div p {
+    font-size: 14px;
+}
 .clientandvendor {
     width: 100%;
     margin: auto;

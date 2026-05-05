@@ -97,12 +97,19 @@
 
 .herotwo  .ht-exten>:nth-child(1) {
     
-    color: #010127;
-    border: #010127 1px solid;
+    color: #0a2540;
+    border: #fc5910 1px solid;
     padding: 5px;
     border-radius: 10px;
 }
 
+.herotwo  .ht-exten>:nth-child(2) {
+    color: #0a2540;
+}
+
+.herotwo  .ht-exten>:nth-child(3) {
+    color:#fc5910;
+}
 .core {
     width: 90%;
     margin: auto;
