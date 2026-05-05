@@ -903,7 +903,7 @@ footer section {
 }
 footer section {
     display: flex;
-    align-items: center;
+    align-items: start;
     width: 90%;
     margin: auto;
     justify-content: space-between;
