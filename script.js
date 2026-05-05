@@ -1,3 +1,4 @@
+
 {
 document.querySelectorAll('.scroll-link').forEach(link => {
     link.addEventListener('click', function (e) {
@@ -31,9 +32,6 @@ document.querySelectorAll('.scroll-link').forEach(link => {
   });
 
 }
-
-
-
 {
     const navBar = document.getElementById('navBar');
     function closeNav() {
