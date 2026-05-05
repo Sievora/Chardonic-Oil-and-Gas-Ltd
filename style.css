@@ -29,10 +29,38 @@ body {
 }
 
 
+.skeleton {
+  background: #e0e0e0;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 150%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,0.5),
+    transparent
+  );
+  animation: shimmer 1.2s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    left: 150%;
+  }
+}
+
 
 .arrowup {
    max-width: 1360px; 
-   width: 97%;
+   width: 90%;
    margin: auto;
    position: relative;
     z-index: 999999999;
@@ -47,7 +75,7 @@ body {
 
 .arrowup  a {
     position: fixed;
-    margin: 20px 15px;
+    margin: 20px 0px;
     bottom: 0px;
     padding:  10px;
     text-align: center;

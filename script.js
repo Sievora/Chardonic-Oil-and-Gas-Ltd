@@ -43,3 +43,8 @@ document.querySelectorAll('.scroll-link').forEach(link => {
     }
 }
 
+{
+  document.querySelectorAll('.skeleton')
+  .forEach(el => el.classList.remove('skeleton'));
+}
+
