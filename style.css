@@ -298,6 +298,10 @@ nav .sectionOne img {
 
 nav .sectionOne svg {
     width:35px;
+    stroke: #fc5910;
+    fill: none;
+    background-color: #f7f7f7;
+    border-radius: 10px;
 }
 
 nav .sectionTwo {
