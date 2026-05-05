@@ -5,7 +5,7 @@ html {
     margin: auto;
     background-color: #fff;
     scroll-behavior: smooth;
-    color: #01013a;
+    color: #0A2540;
 }
 
 * {
@@ -169,9 +169,9 @@ body {
 }
 
 .top-head section .sectionTwo a:hover {
-    color: #010127;
+    color: #0A2540;
     font-weight: 500;
-    fill: #010127;
+    fill: #0A2540;
 }
 
 .main-header {
@@ -218,7 +218,7 @@ body {
 }
 
 .main-header section div a:hover {
-    border-top: 2px solid #010127;
+    border-top: 2px solid #0A2540;
     color: #010127;
     background-color: rgba(128, 128, 128, 0.089);
 }
@@ -226,7 +226,7 @@ body {
 .main-header section button {
     display: flex;
     align-items: center;
-    background-color: #01013a;
+    background-color: #0A2540;
     height: 50px;
     align-items: center;
     gap: 10px;
@@ -422,7 +422,7 @@ nav button svg {
     margin-top: 4%;
     display: flex;
     align-items: center;
-    background-color: #010127;
+    background-color: #0A2540;
     height: 50px;
     align-items: center;
     gap: 10px;
@@ -674,13 +674,13 @@ nav button svg {
 }
 
 .core .text>:nth-child(2) {
-    color: #010127;
+    color: #0A2540;
 }
 
 .core .text button {
     display: flex;
     align-items: center;
-    background-color: #01013a;
+    background-color: #0A2540;
     height: 50px;
     width: 30%;
     align-items: center;
@@ -753,7 +753,7 @@ nav button svg {
     text-align: center;
     width: 100%;
     padding: 20px 0;
-    color: #010127;
+    color: #0A2540;
     font-size: 30px;
     font-weight: bold;
 }
@@ -803,7 +803,7 @@ nav button svg {
     align-items: start;
     font-size: 14px;
     padding: 40px 2%;
-    background-color: #010127;
+    background-color: #0A2540;
     color: #fff;
     border-radius: 10px;
     margin-top: 40px;
