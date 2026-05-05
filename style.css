@@ -916,11 +916,14 @@ footer section {
 footer p {
     width: 40%;
     text-align: left;
+
 }
 
 footer span {
     width: 40%;
     text-align: left;
+        display: flex;
+    justify-content: end;
 }
 
 footer a {
