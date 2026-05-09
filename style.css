@@ -998,3 +998,33 @@ footer a {
 
 /***********ABOUT-US*************/
 
+.what-we-do{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.what-we-do-text {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.what-we-do-text div {
+    width: 40%;
+    display: grid;
+    gap: 10px;
+}
+
+.what-we-do-text>:nth-child(1) p {
+   color: #fc5910;
+}
+
+.what-we-do img {
+    width: 100%;
+    margin: auto;
+}
