@@ -192,4 +192,8 @@
 .what-we-do-text div {
     width: 100%;
 }
+
+.what-we-do-text h2 {
+    margin-bottom: 20px;
+}
 }
