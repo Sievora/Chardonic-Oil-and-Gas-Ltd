@@ -40,10 +40,21 @@ document.querySelectorAll('.scroll-link').forEach(link => {
      function openNav() {
         navBar.style.display = 'grid';
     }
+
+function openget() {
+  const getinpage = document.getElementById('getinpage');
+  getinpage.style.display = 'grid';
 }
 
-/**{
-  document.querySelectorAll('.skeleton')
-  .forEach(el => el.classList.remove('skeleton'));
-}***/
+  function resopenget() {
+  getinpage.style.display = 'grid';
+  navBar.style.display = 'none';
+}
 
+function closeget() {
+  getinpage.style.display = 'none';
+}
+
+
+
+}

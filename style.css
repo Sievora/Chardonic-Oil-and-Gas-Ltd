@@ -7,6 +7,7 @@ html {
     scroll-behavior: smooth;
     color: #0A2540;
     font-size: 14px;
+    position: relative;
 }
 
 * {
@@ -29,6 +30,192 @@ body {
 
 }
 
+.getinpage {
+    max-width: 1360px;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(252, 89, 16, 0.1);
+    backdrop-filter: blur(3px);
+    z-index: 9999999999999;
+    display: none ;
+    animation: getinpage 0.5s ease;
+    
+}
+
+@keyframes getinpage {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateY(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.getin {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    
+    border-radius: 20px;
+    border: rgba(91, 91, 91, 0.233) 1px solid;
+    gap: 20px;
+    display: grid;
+    position: relative;
+}
+
+.getin .arrow {
+    width:fit-content;
+    padding: 3px 15px;
+    background-color: #fff;
+    box-shadow:  0px 0px 1.5px rgba(252, 89, 16, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content:center;  
+    border-radius: 10px;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.getin .arrow svg {
+   stroke: #fc5910;
+   width: 24px;
+}
+
+.getin .arrow:active {
+     box-shadow: none;
+}
+
+.fandc {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+
+.fandc form {
+    display: grid;
+    gap: 10px;
+    width: 50%;
+padding:0px 20px;
+    margin-bottom: 50px;
+
+}
+
+.fandc form h1 {
+    color: #fc5910;
+    
+}
+
+.fandc form .nameandemail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fandc form input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: rgba(91, 91, 91, 0.233) 1px solid;
+}
+
+.fandc form textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: rgba(91, 91, 91, 0.233) 1px solid;
+     padding: 10px;
+     height: 150px;
+}
+
+ .fandc form button {
+    width: 100%;
+    height: 50px;
+    background-color: #fc5910;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fandc .contact {
+    background-color: #0A2540;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #f7f7f7;
+    padding:50px 20px;
+
+    
+}
+
+.contact h1 {
+    margin-bottom: 10px;
+}
+
+.fandc .contact svg {
+    
+    display: flex;
+    align-items: center;
+}
+
+.fandc .contact .emailandno {
+    display: grid;
+    gap: 10px;
+}
+
+.fandc .contact .emailandno a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+.fandc .contact .emailandno svg {
+    padding: 10px;
+    fill: #fc5910;
+    background-color: #f7f7f7;
+    border-radius: 50px;
+    width: 40px;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #fc5910;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.links svg {
+    width: 30px;
+    fill: #ffffff;
+    
+}
 
 /**.skeleton {
   background: #e0e0e0;
@@ -189,7 +376,7 @@ body {
     position: fixed;
     top: 0;
     max-width: 1360px;
-    z-index: 9999999999;
+    z-index: 999999999;
     
 }
 
@@ -577,58 +764,9 @@ nav .sectionThree svg {
 	
 }
 
-.herotwo .achieve>:nth-child(1) {
-    animation: text-appear 3s both;
-	animation-timeline: view();
-	animation-range:  entry 0% cover 30vh;
-    animation-delay: 0.5s ;
-   
-}
 
-.herotwo .achieve>:nth-child(2) {
-    animation: text-appear 5s both;
-	animation-timeline: view();
-	animation-range:  entry 0% cover 30vh;
-    animation-delay: 0.5s ;
-   
-}
 
-.herotwo .achieve>:nth-child(3) {
-     animation: text-appear 8s both;
-	animation-timeline: view();
-	animation-range:  entry 0% cover 30vh;
-    animation-delay: 0.5s ;
-}
 
-.herotwo .achieve>:nth-child(4) {
-     animation: text-appear 11s both;
-	animation-timeline: view();
-	animation-range:  entry 0% cover 30vh;
-    animation-delay: 0.5s ;
-}
-
-.herotwo .achieve>:nth-child(5) {
-     animation: text-appear 15s both;
-	animation-timeline: view();
-	animation-range:  entry 0% cover 30vh;
-    animation-delay: 0.5s ;
-}
-
-@keyframes text-appear {
-	from {
-		opacity: 0;
-		transform: translateX(-100px);
-		
-		transition: ease;
-	}
-
-	to {
-		opacity: 1;
-		
-		transform: translateX(0px);
-		transition: ease;
-	}
-}
 
 .herotwo .achieve div {
     margin: 0;
@@ -674,27 +812,10 @@ nav .sectionThree svg {
     border: 1px solid #0000002a;
     border-radius: 10px;
     margin: auto;
-	animation: ht-exten 20s both;
-	animation-timeline: view();
-	animation-range:  entry 0% cover 25vh;
-    animation-delay: 0.5s ;
+	
 }
 
-@keyframes ht-exten {
-	from {
-		opacity: 0;
-		transform: translateY(100px);
-		
-		transition: ease;
-	}
 
-	to {
-		opacity: 1;
-		
-		transform: translateY(0px);
-		transition: ease;
-	}
-}
 
 
 
@@ -1028,4 +1149,8 @@ footer a {
     width: 100%;
     margin: auto;
     border-radius: 10px;
+}
+
+.achieve-two {
+    width: 100%;
 }
