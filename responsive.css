@@ -231,4 +231,44 @@
 .achieve-two {
     width: 100%;
 }
+
+.corevalues {
+    display: grid;
+    gap: 20px;
+}
+
+.corevalues .coretext {
+    width: 100%;
+    gap: 20px;
+}
+
+.corevalues .coretext h1 {
+    width: 100%;
+}
+
+.corevalues .coretext>:nth-child(3) {
+    width: 100%;
+}
+
+.coremandv {
+    display: grid;
+    gap: 20px;
+}
+
+.coremandv div {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.coremandv span {
+    width: 100%;
+    height: 1px;
+    position: relative;
+}
+
+.corevalues img {
+    width: 100%;
+    border-radius: 15px;
+}
+
 }

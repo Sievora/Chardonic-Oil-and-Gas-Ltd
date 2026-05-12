@@ -1154,3 +1154,102 @@ footer a {
 .achieve-two {
     width: 100%;
 }
+
+.corevalues {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    position: relative;
+}
+
+.corevalues .coretext {
+    width: 60%;
+    display: grid;
+    gap: 20px;
+}
+
+.corevalues .coretext>:nth-child(1) {
+    color: #fc5910;
+}
+
+.corevalues .coretext h1 {
+    width: 70%;
+}
+
+.corevalues .coretext>:nth-child(3) {
+    width: 70%;
+}
+
+.corevalues .coretext button {
+    display: flex;
+    align-items: center;
+    background-color: #0A2540;
+    height: 50px;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+    border: none;
+     justify-content: space-between;
+     color: #fff;
+     font-weight: bold;
+     font-size: 15px;
+     border-radius: 0px;
+     padding: 0 20px;
+    cursor: pointer;
+}
+
+
+
+.corevalues .coretext button svg {
+    background-color: #fc5910;
+    color: #fff;
+    stroke: #fff;
+    width: 30px;
+}
+
+.corevalues img {
+    width: 40%;
+}
+
+
+
+.coremandv {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    position: relative;
+    gap: 30px;
+}
+
+.coremandv div {
+    width: 50%;
+    background-color: #f7f7f7;
+    padding: 10px;
+    text-align:left ;
+}
+
+.coremandv span {
+    background-color: #5b5b5b;
+    width: 1px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+}
+
+.coremandv div svg {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 40px;
+}
+
+.coremandv div p {
+    font-size: 14px;
+}

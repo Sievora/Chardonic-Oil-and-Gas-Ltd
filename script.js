@@ -55,6 +55,4 @@ function closeget() {
   getinpage.style.display = 'none';
 }
 
-
-
 }
