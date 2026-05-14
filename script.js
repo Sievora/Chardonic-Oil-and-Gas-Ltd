@@ -91,3 +91,45 @@ function closeget() {
   const hiddenTwoElements = document.querySelectorAll('.hiddenTwo');
   hiddenTwoElements.forEach((el) => observer.observe(el));
 }
+
+
+
+{
+ const counters = document.querySelectorAll(".counter span");
+ const container = document.querySelector(".counters"); 
+
+ let activated = false;
+window.addEventListener("scroll", () => {
+
+  if (
+    pageXOffset > container.offsetTop - container.offsetHeight - 200
+  ){
+    counters.forEach(counter => {
+      counter.innerText = 0;
+      let count = 0;
+      function updateCounter() {
+        const target = parseInt(counter.dataset.count);
+        if (count < target) {
+          count++;
+          counter.innerText = count;
+          setTimeout(updateCounter, 10);
+        } else {
+          counter.innerText = target;
+        }
+    }
+    updateCounter();
+    activated = true;
+});
+
+  } else if (
+    pageYOffset < container.offsetTop - container.offsetHeight - 500
+    || pageYOffset === 0
+    && activated === true
+  ) {
+    counters.forEach(counter => {
+      counter.innerText = 0;
+  });
+  activated = false;
+  }
+});
+}
