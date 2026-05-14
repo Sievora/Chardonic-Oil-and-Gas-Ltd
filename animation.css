@@ -15,7 +15,7 @@
 .hiddenTwo {
     opacity: 0;
     filter: blur(10px);
-    transform: translateX(100px);
+    transform: translateX(-100px);
     transition: all 1s ease;
 }
 
