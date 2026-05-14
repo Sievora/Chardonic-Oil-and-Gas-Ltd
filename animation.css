@@ -1,0 +1,27 @@
+.hidden {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(100px);
+    transition: all 1s ease;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0px);
+    
+}
+
+.hiddenTwo {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(100px);
+    transition: all 1s ease;
+}
+
+.showTwo {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0px);
+    
+}

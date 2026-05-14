@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="all.min.css">
     <link rel="stylesheet" href="fontawesome.css">
     <link rel="stylesheet" href="fontawesome.min.css">
@@ -14,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script defer src="script.js"></script>
     <title>Chardonic-Homepage</title>
     </head>
 <!----------------------------HOME PAGE BODY------------------------------>
@@ -252,14 +254,14 @@
 
 <!----------------------------HERO SECTION------------------------------>
 <!----------------------------HERO SECTION------------------------------>
-        <section class="hero" id="contact">
+        <section class="hero " id="contact">
             <div class="hero-sub">
-            <p class="p1 skeleton">Welcome to <span>Chardonic</span></p>
-            <h1 class="skeleton">An Advanced Industrial Processing & Infrastructure Solutions</h1>
-            <p class="p2 skeleton">
+            <p class="p1 hidden ">Welcome to <span>Chardonic</span></p>
+            <h1 class="hidden">An Advanced Industrial Processing & Infrastructure Solutions</h1>
+            <p class="p2 hidden">
                 Our company offers premium manufacturing, construction, and industrial services tailored to client requirements. With proven expertise, we implement forward-thinking solutions that enhance operational efficiency, ensure safety, and support long-term sustainability.
             </p>
-                <button class="skeleton" onclick="resopenget()">Reach Out To Us
+                <button class="hidden" onclick="resopenget()">Reach Out To Us
                     <svg viewBox="0 0 24 24" fill="none" stroke="#3e3f89" stroke-width="1">
                     <path d="M6 18L18 6"/>
                     <path d="M18 6H10"/>
@@ -269,9 +271,9 @@
             </div>
         </section>
 
-        <section class="mainherotwo skeleton"> 
+        <section class="mainherotwo"> 
         <section class="herotwo">
-                <section class="achieve">
+                <section class="achieve ">
                     <div>
                         <h1>10+</h1><p>Awards <br>Won</p>
                     </div>
@@ -285,7 +287,7 @@
                     </div>           
                 </section>
 
-                <section class="ht-exten">
+                <section class="ht-exten hidden">
                     <p><span>Pinned</span> <span>📌</span></p>
                     <p>Customized Industrial Manufacturing Solutions</p>
                     <a href="services.html">Our Services<span>↗</span></a>
@@ -295,12 +297,12 @@
 
 <!----------------------------CORE VALUES------------------------------>
 <!----------------------------CORE VALUES------------------------------>
-    <section class="core skeleton">
-        <img src="Gemini_Generated_Image_tefzzvtefzzvtefz.jpg">
+    <section class="core hidden skeleton">
+        <img src="Gemini_Generated_Image_tefzzvtefzzvtefz.jpg" class="hiddenTwo">
         <div class="text">
-            <P>Core Values</P>
-            <h1>Dependable Partner for Oil & Gas Operations and Haulage Services</h1>
-            <p>With proven industry experience and a strong commitment to excellence, we have built a reputation as a reliable partner in oil & gas supply and industrial logistics.</p>
+            <P class="hidden">Core Values</P>
+            <h1 class="hidden">Dependable Partner for Oil & Gas Operations and Haulage Services</h1>
+            <p class="hidden">With proven industry experience and a strong commitment to excellence, we have built a reputation as a reliable partner in oil & gas supply and industrial logistics.</p>
                 <button class="button" onclick="resopenget()">Contact&nbsp;Us&nbsp;Now
                     <svg viewBox="0 0 24 24" fill="none" stroke="#3e3f89" stroke-width="1">
                     <path d="M6 18L18 6"/>
@@ -313,7 +315,7 @@
 
 <!----------------------------MISSION AND VISION------------------------------>
 <!----------------------------MISSION AND VISION------------------------------>
-    <section class="mandv skeleton">
+    <section class="mandv hidden skeleton">
         <div>
             <svg  viewBox="0 0 24 24" fill="none" stroke="#fc5910" stroke-width="2">
             <circle cx="12" cy="12" r="9" stroke="black"/>
@@ -337,8 +339,8 @@
 
 <!----------------------------OUR PARTNERS AND VENDORS------------------------------>
 <!----------------------------OUR PARTNERS AND VENDORS------------------------------>
-<section class="clientandvendor skeleton">
-    <h2>Our Parterners <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fc5910" stroke-width="2">
+<section class="clientandvendor  skeleton">
+    <h2 class="hidden">Our Parterners <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fc5910" stroke-width="2">
   <circle cx="12" cy="8" r="4"/>
   <path d="M4 20a8 8 0 0 1 16 0"/>
 </svg> and Vendors <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fc5910" stroke-width="2">
@@ -428,6 +430,6 @@ Supply Of oil tools.</p>
 </footer>
 
 <!----------------------------JAVASCRIPT------------------------------>
-    <script src="script.js"></script>
+    
     </body>
 </html>
